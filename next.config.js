@@ -8,7 +8,9 @@ const remotes = (isServer) => {
 };
 const nextConfig = {
   reactStrictMode: true,
-
+  images: {
+    domains: ["rickandmortyapi.com"],
+  },
   webpack(config, options) {
     config.plugins.push(
       new NextFederationPlugin({
