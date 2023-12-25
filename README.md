@@ -28,7 +28,16 @@ pnpm run dev
 
 (Esta configurado para correr localmente en el puerto 3002)
 
-Esta hecho con pages route de NextJs 13
+Para corerr los test:
+```bash
+npm run test
+# or
+yarn run test
+# or
+pnpm run test
+```
+
+Nota: Esta hecho con pages route de NextJs 13
 
 ## Internamente el proyecto esta programado con:
 - NextJs
