@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getCharacters } from '../helpers/search';
+import { getCharacters } from '../helpers/get-characters';
 import { RickAndMortyAPIResponse } from '@/interfaces/rick-and-morty-api-response';
 
 export const useFetch = () => {
